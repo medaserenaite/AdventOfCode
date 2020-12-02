@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 ///// * DAY 1 PART 1 * /
-const input = require("fs").readFileSync("puzzleInput.txt", "UTF-8").split("\n")
+const input = require("fs").readFileSync("day1input.txt", "UTF-8").split("\n")
 
 let firstNum;
 let secondNum;
